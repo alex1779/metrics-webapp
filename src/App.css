@@ -1,0 +1,10 @@
+* {
+  background-color: rgb(234, 79, 139);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(234, 79, 139);
+}

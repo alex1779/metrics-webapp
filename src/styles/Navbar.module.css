@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f75291;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f75291;
+}
+
+.title {
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  background-color: #f75291;
+}
+
+p {
+  color: white;
+  font-weight: 700;
+  font-size: 4vw;
+  margin: 0;
+  margin-right: 6vw;
+  margin-bottom: 2vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  max-width: 1300px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: 170px;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  gap: 20px;
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  margin: 7px;
+}
+
+li {
+  border: 1px solid white;
+  aspect-ratio: 1/1;
+}
+
+li a {
+  list-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navLink {
+  color: blue;
+  transition: all 250ms ease-in-out;
+}
+
+.navLink:hover {
+  color: darkmagenta;
+}
+
+.active {
+  color: blue;
+  font-weight: 700;
+}
+
+article {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.rocketsMain {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  padding: 0;
+  width: 100%;
+  background-color: #f75291;
+  margin: 0;
+}
+
+.Containerli {
+  display: flex;
+  margin: 20px;
+}
