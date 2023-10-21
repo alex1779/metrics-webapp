@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { fetchCategories } from '../redux/categories/categoriesSlice';
 import styles from '../styles/Categories.module.css';
 import Item from './Item';
+import Navbar from './Navbar2';
 
 function Categories() {
   const {
@@ -22,24 +23,26 @@ function Categories() {
     }
   }, [dispatch, category]);
 
-  // console.log(category);
-
   return (
-    <ul className={styles.rocketsMain}>
-      {isLoading && <p>Loading...</p>}
-      {error && <p>{error}</p>}
-      {category.map((company) => (
-        <li className={styles.Containerli} key={company.key}>
-          <Item
-            name={company.name}
-            currency={company.currency}
-            stockExchange={company.stockExchange}
-            exchangeShortName={company.exchangeShortName}
-            symbol={company.symbol}
-          />
-        </li>
-      ))}
-    </ul>
+    <>
+      <Navbar name={location.state.company} />
+      <ul className={styles.rocketsMain}>
+        {isLoading && <p>Loading...</p>}
+        {error && <p>{error}</p>}
+        {category.map((company) => (
+          <li className={styles.Containerli} key={company.key}>
+            <Item
+              name={company.name}
+              currency={company.currency}
+              stockExchange={company.stockExchange}
+              exchangeShortName={company.exchangeShortName}
+              symbol={company.symbol}
+            />
+          </li>
+        ))}
+      </ul>
+    </>
+
   );
 }
 

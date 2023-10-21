@@ -1,10 +1,12 @@
 h1 {
   color: white;
+  font-size: 3vw;
 }
 
 p {
   color: white;
   margin: 1vw 0 1vw 0;
+  font-size: 3vw;
 }
 
 ul {
@@ -14,12 +16,13 @@ ul {
 }
 
 li {
-  aspect-ratio: 2/1;
+  aspect-ratio: auto;
 }
 
 div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   background-color: #f75291;
 }

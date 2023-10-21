@@ -1,6 +1,4 @@
 import PropTypes from 'prop-types';
-import { BsArrowLeftCircle } from 'react-icons/bs';
-import { NavLink } from 'react-router-dom';
 
 function Item({
   name, currency, stockExchange, exchangeShortName, symbol,
@@ -12,14 +10,7 @@ function Item({
       <p>{stockExchange}</p>
       <p>{exchangeShortName}</p>
       <p>{symbol}</p>
-      <NavLink
-        to="/"
-      >
-        <BsArrowLeftCircle
-          color="white"
-          size={22}
-        />
-      </NavLink>
+
     </div>
   );
 }
