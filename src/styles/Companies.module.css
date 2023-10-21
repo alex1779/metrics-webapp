@@ -1,0 +1,84 @@
+ul {
+  list-style: none;
+  gap: 20px;
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+.companiesP {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  margin: 7px;
+}
+
+li {
+  border: 1px solid white;
+  aspect-ratio: 1/1;
+}
+
+li a {
+  list-style: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navLink {
+  color: blue;
+  transition: all 250ms ease-in-out;
+}
+
+.navLink:hover {
+  color: darkmagenta;
+}
+
+.active {
+  color: blue;
+  font-weight: 700;
+}
+
+article {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.companiesMain {
+  display: grid;
+  grid-template-columns: 47vw 47vw;
+  padding: 0;
+  width: 100%;
+  background-color: #f75291;
+  margin: 2vw 0 0 0;
+}
+
+.Containerli {
+  display: flex;
+  margin: 20px;
+  aspect-ratio: 1/1;
+}
+
+.mainCompanies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.companiesTitle {
+  color: white;
+  font-weight: 700;
+  font-size: 3vw;
+  text-align: end;
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
