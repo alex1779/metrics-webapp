@@ -18,10 +18,9 @@ function Categories() {
   const url = `https://financialmodelingprep.com/api/v3/search?query=${location.state.company}&apikey=7ec5443c9e2544b7fc49d61999878c6b`;
 
   useEffect(() => {
-    if (isLoading && !category.length) {
-      dispatch(fetchCategories(url));
-    }
-  }, [dispatch, category]);
+    dispatch(fetchCategories(url));
+    console.log();
+  }, [dispatch]);
 
   return (
     <>
