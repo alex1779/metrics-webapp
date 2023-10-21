@@ -19,7 +19,6 @@ function Categories() {
 
   useEffect(() => {
     dispatch(fetchCategories(url));
-    console.log();
   }, [dispatch]);
 
   return (
