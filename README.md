@@ -8,7 +8,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [Demo](#key-features)
+  - [Live Demo](#Live-Demo)
+  - [Presenting Video](#Presenting-Video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -48,17 +49,15 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
 
-> Here are some key features of the application :
-
-- **Remove function to the list.**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo
 Visit us [here](https://metrics-webapp-v9rz.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Presenting Video
+Visit us [here](https://drive.google.com/file/d/1HQMlqsX9U9JxRUO7FvOD5XflYq6qMpn1/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
