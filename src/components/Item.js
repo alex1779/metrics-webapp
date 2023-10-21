@@ -10,7 +10,6 @@ function Item({
       <p>{stockExchange}</p>
       <p>{exchangeShortName}</p>
       <p>{symbol}</p>
-
     </div>
   );
 }
