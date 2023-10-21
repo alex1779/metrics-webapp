@@ -33,6 +33,11 @@ p {
   margin-bottom: 2vw;
 }
 
+.year {
+  font-size: 4vw;
+  margin: 0 0 0 5vw;
+}
+
 nav {
   display: flex;
   flex-direction: row;
