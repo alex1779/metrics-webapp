@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { fetchCompanies } from '../redux/companies/companiesSlice';
 import styles from '../styles/Companies.module.css';
 import Navbar from './Navbar';
+import Searchbar from './Searchbar';
 
 function Companies() {
   const {
@@ -19,6 +20,7 @@ function Companies() {
   return (
     <>
       <Navbar />
+      <Searchbar />
       <ul className={styles.companiesMain}>
         {isLoading && <p>Loading...</p>}
         {error && <p>{error}</p>}
