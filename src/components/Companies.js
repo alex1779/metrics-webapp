@@ -30,7 +30,7 @@ function Companies() {
             >
               <BsArrowRightCircle
                 color="white"
-                size={22}
+                size="7vw"
               />
             </NavLink>
 

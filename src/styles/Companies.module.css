@@ -51,7 +51,7 @@ article {
 
 .companiesMain {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 47vw 47vw;
   padding: 0;
   width: 100%;
   background-color: #f75291;
@@ -75,7 +75,7 @@ article {
 .companiesTitle {
   color: white;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: end;
   margin: 0;
   margin-top: 0;
